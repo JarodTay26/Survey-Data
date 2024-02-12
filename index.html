@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Valentine</title>
-  </head>
-  <body>
-    <main class="container">
-      <img class="cat-img" src="img/cat-0.jpg" alt="Picture of a cat" />
-      <p class="title">Will you be my Valentine?</p>
-      <div class="buttons">
-        <button type="button" class="btn btn--yes">Yes</button>
-        <button type="button" class="btn btn--no">No</button>
-      </div>
-    </main>
-
+</head>
+<body>
+    <div class="starting-container">
+        <img class="hmm-img" src="img/cat-0.jpg" alt="Picture of a cat" />
+        <p class="startingtitle">I know Valentines Day is over...</p>
+        <button type="button" class="btn btn--hmm">Hmm...</button>
+        <button type="button" class="btn btn--goon hidden">Go on...</button>
+    </div>
+    <div class="secondary-container hidden">
+        <img class="cat-img" src="img/cat-0.jpg" alt="Picture of a cat" />
+        <p class="title">Will you be my Valentine?</p>
+        <div class="buttons">
+            <button type="button" class="btn btn--yes">Yes</button>
+            <button type="button" class="btn btn--no">No</button>
+        </div>
+    </div>
     <script type="module" src="script.js"></script>
-  </body>
+</body>
 </html>
